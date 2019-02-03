@@ -2,8 +2,6 @@ name: ukri-demo1
 channels:
   - defaults
 dependencies:
-  - pip==18.1
   - python==2.7.15
-  - pip:
-    - matplotlib==2.0.0
-    - numpy==1.16.1
+  - matplotlib==2.0.0
+  - numpy==1.16.1
