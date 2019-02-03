@@ -4,4 +4,4 @@ channels:
 dependencies:
   - python==2.7.15
   - matplotlib==2.0.0
-  - numpy=1.12
+  - numpy=1.10
