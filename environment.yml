@@ -1,4 +1,4 @@
-name: ukri-demo2
+name: ukri-demo
 channels:
   - defaults
 dependencies:
