@@ -9,3 +9,5 @@ Launch the notebook with Matplotlib v1.5.0: [![Binder](https://mybinder.org/badg
 Launch the notebook with Matplotlib v2.0.0: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgibson91/ukri_demo/mpl-v2.0/?filepath=demo.ipynb)
 
 NOTE: Each version of Matplotlib has its own Numpy dependency which are different in this scenario.
+
+This repo now also lives in Binder Examples! [github.com/binder-examples/matplotlib-versions](https://github.com/binder-examples/matplotlib-versions)
