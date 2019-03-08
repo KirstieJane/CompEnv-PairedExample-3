@@ -1,4 +1,4 @@
-name: ukri-demo
+name: CompEnv-PairExample-3
 channels:
   - defaults
 dependencies:
