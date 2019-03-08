@@ -1,4 +1,4 @@
-name: CompEnv-Paired-Example-3
+name: CompEnv-PairedExample-3
 channels:
   - defaults
 dependencies:
