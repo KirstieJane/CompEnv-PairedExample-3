@@ -1,13 +1,27 @@
-# UKRI Cloud Workshop Demo
+# Computational Environment Paired Example 3
 
-This repo demonstrates how versions of Python packages can introduce significant changes to the execution of code that don't necessarily fail.
+A branch in GitHub is a pointer to a specific snapshot of the repository, on top of which new work can be saved independently from work ongoing on the original snapshot.
+There are three branches in this repository.
 
-The upgrade of Matplotlib from version 1.x to 2.x changed the colour maps of the library. This repo has two branches, one with Matplotlib v1.5.0 and another with Matplotlib v2.0.0. The Jupyter Notebook `demo.ipynb` is common to both of these branches and will demonstrate this difference caused by the version upgrade.
+* `master`: https://github.com/sgibson91/CompEnv-PairedExample-3/tree/master
+* `branch-a`: https://github.com/sgibson91/CompEnv-PairedExample-3/tree/branch-a
+* `branch-b`: https://github.com/sgibson91/CompEnv-PairedExample-3/tree/branch-b
 
-Launch the notebook with Matplotlib v1.5.0: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgibson91/ukri_demo/mpl-v1.5/?filepath=demo.ipynb)
+There is an **identical** Jupyter notebook file in all three branches.
 
-Launch the notebook with Matplotlib v2.0.0: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sgibson91/ukri_demo/mpl-v2.0/?filepath=demo.ipynb)
+* `branch-a` has an `environment.yml` file. You can access the binder for this branch at: https://mybinder.org/v2/gh/sgibson91/CompEnv-PairedExample-3/branch-a?filepath=demo.ipynb
+* `branch-b` has an `environment.yml` file. You can access the binder for this branch at: https://mybinder.org/v2/gh/sgibson91/CompEnv-PairedExample-3/branch-b?filepath=demo.ipynb
 
-NOTE: Each version of Matplotlib has its own Numpy dependency which are different in this scenario.
+## Instructions
 
-This repo now also lives in Binder Examples! [github.com/binder-examples/matplotlib-versions](https://github.com/binder-examples/matplotlib-versions)
+1) Click the links for each branch above.
+   (You may wish to right click and select "Open Link in a New Tab" in order to keep these instructions visible.)
+   When they have finished loading, the `demo.ipynb` notebook will be visible.
+
+2) Run the code in each notebook!
+
+**Q's:**
+
+* What's different between these two branches?
+* What is the difference in the code?
+* How do these differences arise?
